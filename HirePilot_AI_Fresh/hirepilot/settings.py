@@ -3,7 +3,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "dev-only-key-change-before-deployment-please"
 DEBUG = True
-ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost",'hirepilot-ai-3.onrender.com']
 
 INSTALLED_APPS = [
     "django.contrib.contenttypes",
